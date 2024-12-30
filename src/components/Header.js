@@ -79,27 +79,30 @@ const Header = () => {
       </div>
 
       {/* Sub-header Section */}
-      <div className="flex items-center justify-between px-6 md:px-6 py-2 bg-gray-100 border-t-0 border-b-0 border-gray-300">
-        {/* Left Menu Section */}
-        <div className="flex items-center space-x-4 text-base text-gray-700">
-          <FaBars className="cursor-pointer" />
-          <span className="hover:underline cursor-pointer">All category</span>
-          <span className="hover:underline cursor-pointer">Hot offers</span>
-          <span className="hover:underline cursor-pointer">Gift boxes</span>
-          <span className="hover:underline cursor-pointer">Projects</span>
-          <span className="hover:underline cursor-pointer">Menu item</span>
-          <span className="hover:underline cursor-pointer">Help</span>
-        </div>
-        <div className="flex items-center space-x-6 text-base text-gray-700">
-          <div className="flex items-center space-x-2">
-            <span>English, PKR</span>
-          </div>
-          <div className="flex items-center space-x-1">
-            <span>Ship to - </span>
-            <span className="text-base"> Pakistan</span>
-          </div>
-        </div>
-      </div>
+      <div className="flex flex-wrap items-center justify-between px-4 md:px-6 py-2 mt-1 mb-2 bg-white border-t border-b">
+  {/* Left Menu Section */}
+  <div className="flex flex-wrap items-center space-x-3 md:space-x-5 text-sm md:text-base text-black">
+    <FaBars className="cursor-pointer" />
+    <span className="hover:underline cursor-pointer">All category</span>
+    <span className="hover:underline cursor-pointer hidden sm:inline-block">Hot offers</span>
+    <span className="hover:underline cursor-pointer hidden md:inline-block">Gift boxes</span>
+    <span className="hover:underline cursor-pointer hidden lg:inline-block">Projects</span>
+    <span className="hover:underline cursor-pointer hidden xl:inline-block">Menu item</span>
+    <span className="hover:underline cursor-pointer hidden xl:inline-block">Help</span>
+  </div>
+
+  {/* Right Menu Section */}
+  <div className="flex flex-wrap items-center space-x-4 text-sm md:text-base text-gray-700 mt-2 md:mt-0">
+    <div className="flex items-center space-x-2">
+      <span>English, PKR</span>
+    </div>
+    <div className="flex items-center space-x-1">
+      <span>Ship to -</span>
+      <span className="text-black">Pakistan</span>
+    </div>
+  </div>
+</div>
+
     </header>
   );
 };
