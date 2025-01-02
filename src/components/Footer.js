@@ -2,7 +2,7 @@
 import React from "react";
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 py-8">
+    <footer className="bg-gray-100 p-10">
       {/* Newsletter Section */}
       <div className="container mx-auto px-4 text-center">
         <h3 className="text-lg font-semibold">Subscribe on our newsletter</h3>
@@ -21,28 +21,15 @@ const Footer = () => {
         </div>
       </div>
       {/* Footer Links Section */}
-      <div className="mt-12  border  bg-white border-blue-600">
+      <div className="mt-12  border  bg-white">
         <div className="container  mx-auto px-3 flex flex-wrap justify-between items-start py-8">
           {/* Brand Section */}
-          <div className="w-full sm:w-1/3 mb-6 sm:mb-0">
+          <div className="w-full sm:w-1/3 mb-5 sm:mb-0">
             <h4 className="text-blue-600 font-bold text-lg">Brand</h4>
             <p className="text-gray-600 text-sm mt-2">
               Best information about the company goes here but now lorem ipsum.
             </p>
-            <div className="flex items-center gap-3 mt-4">
-              <a href="#" className="text-gray-600 hover:text-blue-600">
-                <i className="fab fa-facebook-f  "></i>
-              </a>
-              <a href="#" className="text-gray-600 hover:text-blue-600">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#" className="text-gray-600 hover:text-blue-600">
-                <i className="fab fa-linkedin-in"></i>
-              </a>
-              <a href="#" className="text-gray-600 hover:text-blue-600">
-                <i className="fab fa-youtube"></i>
-              </a>
-            </div>
+
           </div>
 
           {/* Links Section */}

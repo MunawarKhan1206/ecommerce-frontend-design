@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FaUser, FaEnvelope, FaHeart, FaShoppingCart, FaSearch, FaFlag, FaBars } from "react-icons/fa";
+import Image from "next/image";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -20,8 +21,8 @@ const Header = () => {
       <div className="flex flex-wrap items-center justify-between px-4 md:px-8 py-4 shadow-md bg-white">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-blue-100 flex justify-center items-center rounded-md">
-            <FaShoppingCart className="text-blue-500 text-xl" />
+          <div className="w-10 h-10 flex justify-center items-center rounded-md">
+            <Image src="/logo.png" alt="Logo" width={32} height={32} className="object-cover " />
           </div>
           <h1 className="text-xl font-bold text-blue-500">Brand</h1>
         </div>
@@ -35,7 +36,7 @@ const Header = () => {
             onChange={(e) => setSearchQuery(e.target.value)}
             className="px-4 py-2 w-full outline-none text-base"
           />
-          <select className="border-l px-3 py-2 outline-none text-base">
+          <select className="border-l px-2 py-2 outline-none text-base">
             <option>All categories</option>
             <option>Electronics</option>
             <option>Fashion</option>
