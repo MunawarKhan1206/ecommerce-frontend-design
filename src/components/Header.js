@@ -19,7 +19,6 @@ const Header = () => {
     <header className="flex flex-col">
       {/* Top Section */}
       <div className="flex flex-wrap items-center justify-between px-4 md:px-8 py-4 shadow-md bg-white">
-        {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <div className="w-10 h-10 flex justify-center items-center rounded-md">
             <Image src="/logo.png" alt="Logo" width={32} height={32} className="object-cover " />

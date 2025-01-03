@@ -80,52 +80,61 @@ __turbopack_export_namespace__(__TURBOPACK__imported__module__$5b$project$5d2f$s
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-// import React from "react";
 // import Image from "next/image";
+// import Link from "next/link";
+// import Login from "@/app/login";
 // const HeroSection = () => {
 //   return (
-//     <div className="flex bg-gray-100 p-6">
-//       {/* Left Sidebar */}
-//       <div className="w-1/4 bg-white shadow-md rounded-md p-4">
-//         <ul className="space-y-2">
-//           <li className="font-semibold bg-blue-100 rounded px-3 py-2">Automobiles</li>
-//           <li className="hover:bg-gray-200 rounded px-3 py-2">Clothes and wear</li>
-//           <li className="hover:bg-gray-200 rounded px-3 py-2">Home interiors</li>
-//           <li className="hover:bg-gray-200 rounded px-3 py-2">Computer and tech</li>
-//           <li className="hover:bg-gray-200 rounded px-3 py-2">Tools, equipments</li>
-//           <li className="hover:bg-gray-200 rounded px-3 py-2">Sports and outdoor</li>
-//           <li className="hover:bg-gray-200 rounded px-3 py-2">Animal and pets</li>
-//           <li className="hover:bg-gray-200 rounded px-3 py-2">Machinery tools</li>
-//           <li className="hover:bg-gray-200 rounded px-3 py-2">More category</li>
+//     <div className="flex flex-col lg:flex-row bg-gray-100 p-6 space-y-5 lg:space-y-0 lg:space-x-5">
+//       <div className="w-full lg:w-1/4 bg-white shadow-md rounded-md p-3">
+//         <ul className="space-y-1">
+//           <li className="font-semibold hover:font-bold bg-blue-100 rounded px-2 py-2">Automobiles</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Clothes and wear</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Home interiors</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Computer and tech</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Tools, equipments</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Sports and outdoor</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Animal and pets</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Machinery tools</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">More category</li>
 //         </ul>
 //       </div>
-//       {/* Hero Content */}
-//       <div className="flex-1 mx-6 bg-white shadow-md rounded-md relative p-6">
-//         <Image 
-//           src="Assets/electronics.jpg"
-//           alt="Electronics"
-//           className="w-full  h-[300px] object-cover rounded-md"
-//         />
-//         <div className="absolute top-1/4 left-10 text-left">
-//           <h2 className="text-2xl font-bold text-gray-900 mb-4">Latest trending</h2>
-//           <h3 className="text-xl font-semibold text-gray-700">Electronic items</h3>
-//           <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+//       <div className="flex-1 bg-white shadow-md rounded-md relative p-5">
+//         <div className="relative w-full h-64 lg:h-[3O0px] ">
+//         <Image
+//   src="/electronics.png"
+//   alt="Electronics"
+//   fill
+//   className="rounded-md"
+// />
+//         </div>
+//         <div className="mt-4 text-center lg:text-left">
+//         <div className="absolute top-1/4 left-1/4 text-left">
+//           <h2 className="text-2xl font-bold text-black mb-3">Latest trending</h2>
+//           <h3 className="text-xl font-semibold text-gray-900">Electronic items</h3>
+//           <Link href="/signup" passHref >
+//           <button className="mt-4 px-5 py-2 bg-white rounded">
 //             Learn more
 //           </button>
+//           </Link>
+//         </div>
 //         </div>
 //       </div>
-//       {/* Right Sidebar */}
-//       <div className="w-1/4 bg-white shadow-md rounded-md p-4 space-y-4">
-//         <div className="text-center border-b pb-4">
-//           <p className="font-bold text-gray-700">Hi, user let's get started</p>
-//           <button className="mt-2 px-4 py-2 bg-blue-500 text-white rounded w-full">
-//             Join now
-//           </button>
-//           <button className="mt-2 px-4 py-2 bg-white text-blue-500 border rounded w-full">
-//             Log in
-//           </button>
+//       <div className="w-full lg:w-1/4 bg-white shadow-md rounded-md p-4 space-y-4">
+//         <div className="text-center mt-5 ">
+//           <p className="font-bold text-gray-700">Hi, user let&apos;s get started</p>
+//           <Link href="/signup" passHref>
+//             <button className="mt-3 px-4 py-2 bg-blue-500 text-white rounded w-full">
+//               Join now
+//             </button>
+//           </Link>
+//           <Link href="/login" passHref>
+//             <button className="mt-2 px-4 py-2 bg-white text-blue-500 border rounded w-full">
+//               Log in
+//             </button>
+//           </Link>
 //         </div>
-//         <div className="bg-orange-100 text-orange-600 p-4 rounded">
+//         <div className="  bg-orange-200 text-orange-700 p-4 rounded">
 //           Get US $10 off with a new supplier
 //         </div>
 //         <div className="bg-teal-100 text-teal-600 p-4 rounded">
@@ -160,23 +169,23 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.js",
-                    lineNumber: 9,
+                    lineNumber: 10,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.js",
-                    lineNumber: 10,
+                    lineNumber: 11,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.js",
-                    lineNumber: 11,
+                    lineNumber: 12,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.js",
-            lineNumber: 8,
+            lineNumber: 9,
             columnNumber: 7
         }, this)
     }, void 0, false);

@@ -81,6 +81,71 @@ __turbopack_export_namespace__(__TURBOPACK__imported__module__$5b$project$5d2f$s
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
+// import Image from "next/image";
+// import Link from "next/link";
+// import Login from "@/app/login";
+// const HeroSection = () => {
+//   return (
+//     <div className="flex flex-col lg:flex-row bg-gray-100 p-6 space-y-5 lg:space-y-0 lg:space-x-5">
+//       <div className="w-full lg:w-1/4 bg-white shadow-md rounded-md p-3">
+//         <ul className="space-y-1">
+//           <li className="font-semibold hover:font-bold bg-blue-100 rounded px-2 py-2">Automobiles</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Clothes and wear</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Home interiors</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Computer and tech</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Tools, equipments</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Sports and outdoor</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Animal and pets</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">Machinery tools</li>
+//           <li className="hover:bg-blue-100 hover:font-bold rounded px-2 py-2">More category</li>
+//         </ul>
+//       </div>
+//       <div className="flex-1 bg-white shadow-md rounded-md relative p-5">
+//         <div className="relative w-full h-64 lg:h-[3O0px] ">
+//         <Image
+//   src="/electronics.png"
+//   alt="Electronics"
+//   fill
+//   className="rounded-md"
+// />
+//         </div>
+//         <div className="mt-4 text-center lg:text-left">
+//         <div className="absolute top-1/4 left-1/4 text-left">
+//           <h2 className="text-2xl font-bold text-black mb-3">Latest trending</h2>
+//           <h3 className="text-xl font-semibold text-gray-900">Electronic items</h3>
+//           <Link href="/signup" passHref >
+//           <button className="mt-4 px-5 py-2 bg-white rounded">
+//             Learn more
+//           </button>
+//           </Link>
+//         </div>
+//         </div>
+//       </div>
+//       <div className="w-full lg:w-1/4 bg-white shadow-md rounded-md p-4 space-y-4">
+//         <div className="text-center mt-5 ">
+//           <p className="font-bold text-gray-700">Hi, user let&apos;s get started</p>
+//           <Link href="/signup" passHref>
+//             <button className="mt-3 px-4 py-2 bg-blue-500 text-white rounded w-full">
+//               Join now
+//             </button>
+//           </Link>
+//           <Link href="/login" passHref>
+//             <button className="mt-2 px-4 py-2 bg-white text-blue-500 border rounded w-full">
+//               Log in
+//             </button>
+//           </Link>
+//         </div>
+//         <div className="  bg-orange-200 text-orange-700 p-4 rounded">
+//           Get US $10 off with a new supplier
+//         </div>
+//         <div className="bg-teal-100 text-teal-600 p-4 rounded">
+//           Send quotes with supplier preferences
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+// export default HeroSection;
 __turbopack_esm__({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -104,7 +169,7 @@ const HeroSection = ()=>{
                             children: "Automobiles"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 9,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -112,7 +177,7 @@ const HeroSection = ()=>{
                             children: "Clothes and wear"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 10,
+                            lineNumber: 77,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -120,7 +185,7 @@ const HeroSection = ()=>{
                             children: "Home interiors"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 11,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -128,7 +193,7 @@ const HeroSection = ()=>{
                             children: "Computer and tech"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 12,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -136,7 +201,7 @@ const HeroSection = ()=>{
                             children: "Tools, equipments"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 13,
+                            lineNumber: 80,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -144,7 +209,7 @@ const HeroSection = ()=>{
                             children: "Sports and outdoor"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 14,
+                            lineNumber: 81,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -152,7 +217,7 @@ const HeroSection = ()=>{
                             children: "Animal and pets"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 15,
+                            lineNumber: 82,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -160,7 +225,7 @@ const HeroSection = ()=>{
                             children: "Machinery tools"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 16,
+                            lineNumber: 83,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -168,39 +233,38 @@ const HeroSection = ()=>{
                             children: "More category"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 17,
+                            lineNumber: 84,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HeroSection.js",
-                    lineNumber: 8,
+                    lineNumber: 75,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HeroSection.js",
-                lineNumber: 7,
+                lineNumber: 74,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex-1 bg-white shadow-md rounded-md relative p-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative w-full h-64 lg:h-[3O0px] ",
+                        className: "relative w-full h-64 lg:h-[300px]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                             src: "/electronics.png",
                             alt: "Electronics",
-                            layout: "fill",
-                            objectFit: "contain",
+                            fill: true,
                             className: "rounded-md"
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 22,
-                            columnNumber: 9
+                            lineNumber: 89,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroSection.js",
-                        lineNumber: 21,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -213,108 +277,105 @@ const HeroSection = ()=>{
                                     children: "Latest trending"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSection.js",
-                                    lineNumber: 32,
-                                    columnNumber: 11
+                                    lineNumber: 98,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-xl font-semibold text-gray-900",
                                     children: "Electronic items"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSection.js",
-                                    lineNumber: 33,
-                                    columnNumber: 11
+                                    lineNumber: 99,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/signup",
-                                    passHref: true,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         className: "mt-4 px-5 py-2 bg-white rounded",
                                         children: "Learn more"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroSection.js",
-                                        lineNumber: 35,
-                                        columnNumber: 11
+                                        lineNumber: 101,
+                                        columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSection.js",
-                                    lineNumber: 34,
-                                    columnNumber: 11
+                                    lineNumber: 100,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HeroSection.js",
-                            lineNumber: 31,
-                            columnNumber: 9
+                            lineNumber: 97,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroSection.js",
-                        lineNumber: 30,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/HeroSection.js",
-                lineNumber: 20,
+                lineNumber: 87,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full lg:w-1/4 bg-white shadow-md rounded-md p-4 space-y-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center mt-5 ",
+                        className: "text-center mt-5",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "font-bold text-gray-700",
                                 children: "Hi, user let's get started"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSection.js",
-                                lineNumber: 44,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/signup",
-                                passHref: true,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     className: "mt-3 px-4 py-2 bg-blue-500 text-white rounded w-full",
                                     children: "Join now"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSection.js",
-                                    lineNumber: 46,
+                                    lineNumber: 110,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSection.js",
-                                lineNumber: 45,
+                                lineNumber: 109,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/login",
-                                passHref: true,
+                                href: "@/pages/login",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     className: "mt-2 px-4 py-2 bg-white text-blue-500 border rounded w-full",
                                     children: "Log in"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSection.js",
-                                    lineNumber: 51,
+                                    lineNumber: 113,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSection.js",
-                                lineNumber: 50,
+                                lineNumber: 112,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HeroSection.js",
-                        lineNumber: 43,
+                        lineNumber: 107,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "  bg-orange-200 text-orange-700 p-4 rounded",
+                        className: "bg-orange-200 text-orange-700 p-4 rounded",
                         children: "Get US $10 off with a new supplier"
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroSection.js",
-                        lineNumber: 56,
+                        lineNumber: 116,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -322,19 +383,19 @@ const HeroSection = ()=>{
                         children: "Send quotes with supplier preferences"
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroSection.js",
-                        lineNumber: 59,
+                        lineNumber: 117,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/HeroSection.js",
-                lineNumber: 42,
+                lineNumber: 106,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/HeroSection.js",
-        lineNumber: 6,
+        lineNumber: 73,
         columnNumber: 5
     }, this);
 };
@@ -352,6 +413,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/Header.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/Footer.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/HeroSection.js [app-rsc] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/components/HomePage'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+;
 ;
 ;
 ;
@@ -363,23 +430,28 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.js",
-                    lineNumber: 9,
+                    lineNumber: 11,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.js",
-                    lineNumber: 10,
+                    lineNumber: 12,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(HomePage, {}, void 0, false, {
+                    fileName: "[project]/src/app/page.js",
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.js",
-                    lineNumber: 11,
+                    lineNumber: 14,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.js",
-            lineNumber: 8,
+            lineNumber: 10,
             columnNumber: 7
         }, this)
     }, void 0, false);
