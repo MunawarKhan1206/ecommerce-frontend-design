@@ -24,7 +24,7 @@ const Footer = () => {
           
           <div className="w-full sm:w-1/3 mb-5 sm:mb-0">
             <h4 className="text-blue-600 font-bold text-lg">Brand</h4>
-            <p className="text-gray-600 text-sm mt-2">
+            <p className="text-gray-600 text-sm ">
               Best information about the company goes here but now lorem ipsum.
             </p>
 
@@ -70,10 +70,9 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Section */}
-      <div className="bg-gray-200 py-4">
+      <div className="py-4">
         <div className="container mx-auto px-4 flex flex-wrap justify-between items-center">
-          <p className="text-base   text-gray-600">© 2025 Ecommerce Web . All rights reserved By Munawar Khan.</p>
+          <p className="text-base font-semibold  text-gray-700">© 2025 Ecommerce Web . All rights reserved By Munawar Khan.</p>
         </div>
       </div>
     </footer>

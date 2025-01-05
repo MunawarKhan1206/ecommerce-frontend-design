@@ -2,6 +2,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import HeroSection from '@/components/HeroSection';
 import DealsSection from '@/components/DealsSection';
+import HomeOutdoorSection from '@/components/home&outdoor';
+import Electronicandgadget from '@/components/electronic&gadet';
+
 
 
 export default function RootLayout({ children }) {
@@ -11,6 +14,8 @@ export default function RootLayout({ children }) {
         <Header />
         <HeroSection />
         <DealsSection />
+        <HomeOutdoorSection />
+        <Electronicandgadget />
         <Footer />
       </body>
     </>

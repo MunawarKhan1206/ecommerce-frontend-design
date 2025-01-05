@@ -70,7 +70,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row bg-gray-100 p-6 space-y-5 lg:space-y-0 lg:space-x-5">
+    <div className="flex flex-col lg:flex-row   bg-gray-100 space-y-5 lg:space-y-0 lg:space-x-5">
       <div className="w-full lg:w-1/4 bg-white shadow-md rounded-md p-3">
         <ul className="space-y-1">
           <li className="font-semibold hover:font-bold bg-blue-100 rounded px-2 py-2">Automobiles</li>

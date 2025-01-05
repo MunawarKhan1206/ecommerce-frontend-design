@@ -511,7 +511,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-gray-600 text-sm mt-2",
+                                    className: "text-gray-600 text-sm ",
                                     children: "Best information about the company goes here but now lorem ipsum."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer.js",
@@ -885,25 +885,25 @@ const Footer = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-gray-200 py-4",
+                className: "py-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4 flex flex-wrap justify-between items-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-base   text-gray-600",
+                        className: "text-base font-semibold  text-gray-700",
                         children: "© 2025 Ecommerce Web . All rights reserved By Munawar Khan."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Footer.js",
-                        lineNumber: 76,
+                        lineNumber: 75,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Footer.js",
-                    lineNumber: 75,
+                    lineNumber: 74,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Footer.js",
-                lineNumber: 74,
+                lineNumber: 73,
                 columnNumber: 7
             }, this)
         ]
@@ -983,7 +983,7 @@ const DealsSection = ()=>{
             }["DealsSection.useEffect.timer"], 1000);
             return ({
                 "DealsSection.useEffect": ()=>clearInterval(timer)
-            })["DealsSection.useEffect"]; // Cleanup interval on component unmount
+            })["DealsSection.useEffect"];
         }
     }["DealsSection.useEffect"], []);
     const deals = [
@@ -1014,9 +1014,9 @@ const DealsSection = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "container  bg-gray-100 shadow-md rounded-lg p-5",
+        className: "container  bg-white   ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "grid bg-white grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6",
+            className: "grid  grid-cols-2 mt-10 md:grid-cols-3 lg:grid-cols-6 gap-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col items-center justify-center  mb-4 p-4",
@@ -1153,21 +1153,21 @@ const DealsSection = ()=>{
                     columnNumber: 7
                 }, this),
                 deals.map((deal, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col items-center text-center border p-4 rounded shadow-sm",
+                        className: "flex flex-col items-center text-center border p-2   ",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: deal.image,
                                 alt: deal.title,
                                 width: 100,
                                 height: 100,
-                                className: "object-cover rounded"
+                                className: "object-contain"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/DealsSection.js",
                                 lineNumber: 108,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "mt-2 text-sm font-bold",
+                                className: "mt-2 text-base font-bold",
                                 children: deal.title
                             }, void 0, false, {
                                 fileName: "[project]/src/components/DealsSection.js",
