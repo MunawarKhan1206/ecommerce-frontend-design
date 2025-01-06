@@ -197,6 +197,7 @@
 html, :host {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
+ text-size-adjust: 100%;
   -moz-tab-size: 4;
   tab-size: 4;
   font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
@@ -284,7 +285,8 @@ button, select {
 }
 
 button, input:where([type="button"]), input:where([type="reset"]), input:where([type="submit"]) {
-  -webkit-appearance: button;
+  -webkit-appearance: none;
+  appearance: none;
   background-color: #0000;
   background-image: none;
 }
@@ -306,7 +308,8 @@ progress {
 }
 
 [type="search"] {
-  -webkit-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: none;
   outline-offset: -2px;
 }
 
@@ -365,7 +368,8 @@ button, [role="button"] {
 
 img, svg, video, canvas, audio, iframe, embed, object {
   display: block;
-  vertical-align: middle;
+  
+
 }
 
 img, video {
