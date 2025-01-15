@@ -949,6 +949,120 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
+// "use client";
+// import Image from "next/image";
+// import { useState, useEffect } from "react";
+// const DealsSection = () => {
+//   const [timeLeft, setTimeLeft] = useState({
+//     days: 4,
+//     hours: 13,
+//     minutes: 34,
+//     seconds: 56,
+//   });
+//   // Countdown Timer Logic
+//   useEffect(() => {
+//     const timer = setInterval(() => {
+//       setTimeLeft((prevTime) => {
+//         // Check if time is over and stop the timer
+//         if (prevTime.days === 0 && prevTime.hours === 0 && prevTime.minutes === 0 && prevTime.seconds === 0) {
+//           clearInterval(timer);
+//           return prevTime;
+//         }
+//         let updatedTime = { ...prevTime };
+//         if (updatedTime.seconds > 0) {
+//           updatedTime.seconds -= 1;
+//         } else {
+//           updatedTime.seconds = 59;
+//           if (updatedTime.minutes > 0) {
+//             updatedTime.minutes -= 1;
+//           } else {
+//             updatedTime.minutes = 59;
+//             if (updatedTime.hours > 0) {
+//               updatedTime.hours -= 1;
+//             } else {
+//               updatedTime.hours = 23;
+//               updatedTime.days -= 1;
+//             }
+//           }
+//         }
+//         return updatedTime;
+//       });
+//     }, 1000);
+//     return () => clearInterval(timer); 
+//   }, []);
+//   const deals = [
+//     {
+//       title: "Smart watches",
+//       image: "/watch.png",
+//       discount: "-25%",
+//     },
+//     {
+//       title: "Laptops",
+//       image: "/laptop.png",
+//       discount: "-15%",
+//     },
+//     {
+//       title: "GoPro cameras",
+//       image: "/camera.png",
+//       discount: "-40%",
+//     },
+//     {
+//       title: "Headphones",
+//       image: "/headphone.png",
+//       discount: "-25%",
+//     },
+//     {
+//       title: "Canon cameras",
+//       image: "/Canon.png",
+//       discount: "-25%",
+//     },
+//   ];
+//   return (
+//     <div className="container  bg-white text-black mx-auto  ">
+//       <div className="grid  grid-cols-1 mt-10 md:grid-cols-3 lg:grid-cols-6 gap-6">
+//       <div className="flex flex-col items-center justify-center  mb-4 p-4">
+//   <h2 className="text-lg font-semibold mb-2">Deals and offers</h2>
+//   <p className="text-base mb-3 text-gray-700">Hygiene equipment</p>
+//   <div className="flex gap-2 ml-5 text-center text-white">
+//     <div className="bg-gray-800 px-2 py-2 rounded">
+//       <p className="text-lg font-bold">{timeLeft.days}</p>
+//       <p className="text-xs">Days</p>
+//     </div>
+//     <div className="bg-gray-800 px-2 py-1 rounded">
+//       <p className="text-lg font-bold">{timeLeft.hours}</p>
+//       <p className="text-xs">Hours</p>
+//     </div>
+//     <div className="bg-gray-800 px-2 py-1 rounded">
+//       <p className="text-lg font-bold">{timeLeft.minutes}</p>
+//       <p className="text-xs">Min</p>
+//     </div>
+//     <div className="bg-gray-800 px-2 py-1 rounded">
+//       <p className="text-lg font-bold">{timeLeft.seconds}</p>
+//       <p className="text-xs">Sec</p>
+//     </div>
+//   </div>
+// </div>
+//         {deals.map((deal, index) => (
+//           <div
+//             key={index}
+//             className="flex flex-col items-center text-center border p-2   "
+//           >
+//             <Image
+//               src={deal.image}
+//               alt={deal.title}
+//               width={100}
+//               height={100}
+//               className="object-contain"
+//             />
+//             <h3 className="mt-2 text-base font-bold">{deal.title}</h3>
+//             <p className="text-red-500 mt-1">{deal.discount}</p>
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+// export default DealsSection;
 __turbopack_esm__({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -1037,9 +1151,9 @@ const DealsSection = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "container  bg-white   ",
+        className: "container  bg-white text-black mx-auto  ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "grid  grid-cols-2 mt-10 md:grid-cols-3 lg:grid-cols-6 gap-6",
+            className: "grid  grid-cols-1 mt-10 md:grid-cols-3 lg:grid-cols-6 gap-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col items-center justify-center  mb-4 p-4",
@@ -1049,7 +1163,7 @@ const DealsSection = ()=>{
                             children: "Deals and offers"
                         }, void 0, false, {
                             fileName: "[project]/src/components/DealsSection.js",
-                            lineNumber: 80,
+                            lineNumber: 204,
                             columnNumber: 3
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1057,7 +1171,7 @@ const DealsSection = ()=>{
                             children: "Hygiene equipment"
                         }, void 0, false, {
                             fileName: "[project]/src/components/DealsSection.js",
-                            lineNumber: 81,
+                            lineNumber: 205,
                             columnNumber: 3
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1071,7 +1185,7 @@ const DealsSection = ()=>{
                                             children: timeLeft.days
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/DealsSection.js",
-                                            lineNumber: 84,
+                                            lineNumber: 208,
                                             columnNumber: 7
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1079,13 +1193,13 @@ const DealsSection = ()=>{
                                             children: "Days"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/DealsSection.js",
-                                            lineNumber: 85,
+                                            lineNumber: 209,
                                             columnNumber: 7
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/DealsSection.js",
-                                    lineNumber: 83,
+                                    lineNumber: 207,
                                     columnNumber: 5
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1096,7 +1210,7 @@ const DealsSection = ()=>{
                                             children: timeLeft.hours
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/DealsSection.js",
-                                            lineNumber: 88,
+                                            lineNumber: 212,
                                             columnNumber: 7
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1104,13 +1218,13 @@ const DealsSection = ()=>{
                                             children: "Hours"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/DealsSection.js",
-                                            lineNumber: 89,
+                                            lineNumber: 213,
                                             columnNumber: 7
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/DealsSection.js",
-                                    lineNumber: 87,
+                                    lineNumber: 211,
                                     columnNumber: 5
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1121,7 +1235,7 @@ const DealsSection = ()=>{
                                             children: timeLeft.minutes
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/DealsSection.js",
-                                            lineNumber: 92,
+                                            lineNumber: 216,
                                             columnNumber: 7
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1129,13 +1243,13 @@ const DealsSection = ()=>{
                                             children: "Min"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/DealsSection.js",
-                                            lineNumber: 93,
+                                            lineNumber: 217,
                                             columnNumber: 7
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/DealsSection.js",
-                                    lineNumber: 91,
+                                    lineNumber: 215,
                                     columnNumber: 5
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1146,7 +1260,7 @@ const DealsSection = ()=>{
                                             children: timeLeft.seconds
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/DealsSection.js",
-                                            lineNumber: 96,
+                                            lineNumber: 220,
                                             columnNumber: 7
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1154,25 +1268,25 @@ const DealsSection = ()=>{
                                             children: "Sec"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/DealsSection.js",
-                                            lineNumber: 97,
+                                            lineNumber: 221,
                                             columnNumber: 7
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/DealsSection.js",
-                                    lineNumber: 95,
+                                    lineNumber: 219,
                                     columnNumber: 5
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/DealsSection.js",
-                            lineNumber: 82,
+                            lineNumber: 206,
                             columnNumber: 3
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/DealsSection.js",
-                    lineNumber: 79,
+                    lineNumber: 203,
                     columnNumber: 7
                 }, this),
                 deals.map((deal, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1186,7 +1300,7 @@ const DealsSection = ()=>{
                                 className: "object-contain"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/DealsSection.js",
-                                lineNumber: 108,
+                                lineNumber: 232,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1194,7 +1308,7 @@ const DealsSection = ()=>{
                                 children: deal.title
                             }, void 0, false, {
                                 fileName: "[project]/src/components/DealsSection.js",
-                                lineNumber: 115,
+                                lineNumber: 239,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1202,24 +1316,24 @@ const DealsSection = ()=>{
                                 children: deal.discount
                             }, void 0, false, {
                                 fileName: "[project]/src/components/DealsSection.js",
-                                lineNumber: 116,
+                                lineNumber: 240,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/src/components/DealsSection.js",
-                        lineNumber: 104,
+                        lineNumber: 228,
                         columnNumber: 11
                     }, this))
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/DealsSection.js",
-            lineNumber: 78,
+            lineNumber: 202,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/DealsSection.js",
-        lineNumber: 77,
+        lineNumber: 201,
         columnNumber: 5
     }, this);
 };

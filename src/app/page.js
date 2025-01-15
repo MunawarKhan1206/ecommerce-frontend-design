@@ -4,8 +4,9 @@ import HeroSection from '@/components/HeroSection';
 import DealsSection from '@/components/DealsSection';
 import HomeOutdoorSection from '@/components/home&outdoor';
 import Electronicandgadget from '@/components/electronic&gadet';
-
-
+import HomePage from '@/components/HomePage';
+import Productpage from '@/components/product';
+// import Lastsection from '@/components/lastsection';
 
 export default function RootLayout({ children }) {
   return (
@@ -16,6 +17,9 @@ export default function RootLayout({ children }) {
         <DealsSection />
         <HomeOutdoorSection />
         <Electronicandgadget />
+        <HomePage />
+        <Productpage />
+        {/* <Lastsection /> */}
         <Footer />
       </body>
     </>
