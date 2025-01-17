@@ -198,8 +198,8 @@ const DealsSection = () => {
   ];
 
   return (
-    <div className="container  bg-white text-black mx-auto  ">
-      <div className="grid  grid-cols-1 mt-10 md:grid-cols-3 lg:grid-cols-6 gap-6">
+    <div className="mt-10 container bg-white text-black p-5 ">
+      <div className="grid  grid-cols-1  md:grid-cols-3 lg:grid-cols-6 gap-6">
       <div className="flex flex-col items-center justify-center  mb-4 p-4">
   <h2 className="text-lg font-semibold mb-2">Deals and offers</h2>
   <p className="text-base mb-3 text-gray-700">Hygiene equipment</p>
@@ -227,7 +227,7 @@ const DealsSection = () => {
         {deals.map((deal, index) => (
           <div
             key={index}
-            className="flex flex-col items-center text-center border p-2   "
+            className="flex flex-col items-center text-center border border-black p-2   "
           >
             <Image
               src={deal.image}

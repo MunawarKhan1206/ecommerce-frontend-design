@@ -45,7 +45,7 @@ const Electronicandgadget = () => {
                 className="rounded-md object-cover mb-4"
               />
               <h3 className="font-medium text-lg">{item.title}</h3>
-              <p className="text-sm text-gray-500">{item.price}</p>
+              <p className="text-sm text-gray-700">{item.price}</p>
             </div>
           ))}
         </div>

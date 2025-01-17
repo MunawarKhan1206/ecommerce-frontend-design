@@ -464,10 +464,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Footer = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "bg-gray-100 p-10",
+        className: "bg-gray-100 p-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "container mx-auto px-4 text-center",
+                className: "container px-4 text-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                         className: "text-lg font-semibold",
@@ -518,12 +518,12 @@ const Footer = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-12  border  bg-white",
+                className: "mt-5 border bg-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container  mx-auto px-3 flex flex-wrap justify-between items-start py-8",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-full sm:w-1/3 mb-5 sm:mb-0",
+                            className: "w-full sm:w-1/3 mb-4 sm:mb-0",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                     className: "text-blue-600 font-bold text-lg",
@@ -548,7 +548,7 @@ const Footer = ()=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-full sm:w-2/3 grid grid-cols-2 sm:grid-cols-4 gap-4",
+                            className: "w-full sm:w-2/3 grid grid-cols-2 sm:grid-cols-4 gap-5",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
@@ -557,7 +557,7 @@ const Footer = ()=>{
                                             children: "About"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer.js",
-                                            lineNumber: 34,
+                                            lineNumber: 33,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -568,6 +568,21 @@ const Footer = ()=>{
                                                         href: "#",
                                                         className: "hover:underline",
                                                         children: "About Us"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Footer.js",
+                                                        lineNumber: 35,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Footer.js",
+                                                    lineNumber: 35,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: "#",
+                                                        className: "hover:underline",
+                                                        children: "Find Store"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 36,
@@ -582,7 +597,7 @@ const Footer = ()=>{
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#",
                                                         className: "hover:underline",
-                                                        children: "Find Store"
+                                                        children: "Categories"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 37,
@@ -597,7 +612,7 @@ const Footer = ()=>{
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#",
                                                         className: "hover:underline",
-                                                        children: "Categories"
+                                                        children: "Blogs"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 38,
@@ -607,32 +622,17 @@ const Footer = ()=>{
                                                     fileName: "[project]/src/components/Footer.js",
                                                     lineNumber: 38,
                                                     columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "#",
-                                                        className: "hover:underline",
-                                                        children: "Blogs"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/Footer.js",
-                                                        lineNumber: 39,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Footer.js",
-                                                    lineNumber: 39,
-                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer.js",
-                                            lineNumber: 35,
+                                            lineNumber: 34,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer.js",
-                                    lineNumber: 33,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -642,7 +642,7 @@ const Footer = ()=>{
                                             children: "Partnership"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer.js",
-                                            lineNumber: 43,
+                                            lineNumber: 42,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -653,6 +653,21 @@ const Footer = ()=>{
                                                         href: "#",
                                                         className: "hover:underline",
                                                         children: "About Us"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Footer.js",
+                                                        lineNumber: 44,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Footer.js",
+                                                    lineNumber: 44,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: "#",
+                                                        className: "hover:underline",
+                                                        children: "Find Store"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 45,
@@ -667,7 +682,7 @@ const Footer = ()=>{
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#",
                                                         className: "hover:underline",
-                                                        children: "Find Store"
+                                                        children: "Categories"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 46,
@@ -682,7 +697,7 @@ const Footer = ()=>{
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#",
                                                         className: "hover:underline",
-                                                        children: "Categories"
+                                                        children: "Blogs"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 47,
@@ -692,32 +707,17 @@ const Footer = ()=>{
                                                     fileName: "[project]/src/components/Footer.js",
                                                     lineNumber: 47,
                                                     columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "#",
-                                                        className: "hover:underline",
-                                                        children: "Blogs"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/Footer.js",
-                                                        lineNumber: 48,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Footer.js",
-                                                    lineNumber: 48,
-                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer.js",
-                                            lineNumber: 44,
+                                            lineNumber: 43,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer.js",
-                                    lineNumber: 42,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -727,7 +727,7 @@ const Footer = ()=>{
                                             children: "Information"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer.js",
-                                            lineNumber: 52,
+                                            lineNumber: 51,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -738,6 +738,21 @@ const Footer = ()=>{
                                                         href: "#",
                                                         className: "hover:underline",
                                                         children: "Help Center"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Footer.js",
+                                                        lineNumber: 53,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Footer.js",
+                                                    lineNumber: 53,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: "#",
+                                                        className: "hover:underline",
+                                                        children: "Money Refund"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 54,
@@ -752,7 +767,7 @@ const Footer = ()=>{
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#",
                                                         className: "hover:underline",
-                                                        children: "Money Refund"
+                                                        children: "Shipping"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 55,
@@ -767,7 +782,7 @@ const Footer = ()=>{
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#",
                                                         className: "hover:underline",
-                                                        children: "Shipping"
+                                                        children: "Contact Us"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 56,
@@ -777,32 +792,17 @@ const Footer = ()=>{
                                                     fileName: "[project]/src/components/Footer.js",
                                                     lineNumber: 56,
                                                     columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "#",
-                                                        className: "hover:underline",
-                                                        children: "Contact Us"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/Footer.js",
-                                                        lineNumber: 57,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Footer.js",
-                                                    lineNumber: 57,
-                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer.js",
-                                            lineNumber: 53,
+                                            lineNumber: 52,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer.js",
-                                    lineNumber: 51,
+                                    lineNumber: 50,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -812,7 +812,7 @@ const Footer = ()=>{
                                             children: "For Users"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer.js",
-                                            lineNumber: 61,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -823,6 +823,21 @@ const Footer = ()=>{
                                                         href: "#",
                                                         className: "hover:underline",
                                                         children: "Login"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Footer.js",
+                                                        lineNumber: 62,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Footer.js",
+                                                    lineNumber: 62,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: "#",
+                                                        className: "hover:underline",
+                                                        children: "Register"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 63,
@@ -837,7 +852,7 @@ const Footer = ()=>{
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#",
                                                         className: "hover:underline",
-                                                        children: "Register"
+                                                        children: "Settings"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 64,
@@ -852,7 +867,7 @@ const Footer = ()=>{
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#",
                                                         className: "hover:underline",
-                                                        children: "Settings"
+                                                        children: "My Orders"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.js",
                                                         lineNumber: 65,
@@ -862,38 +877,23 @@ const Footer = ()=>{
                                                     fileName: "[project]/src/components/Footer.js",
                                                     lineNumber: 65,
                                                     columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "#",
-                                                        className: "hover:underline",
-                                                        children: "My Orders"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/Footer.js",
-                                                        lineNumber: 66,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Footer.js",
-                                                    lineNumber: 66,
-                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer.js",
-                                            lineNumber: 62,
+                                            lineNumber: 61,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer.js",
-                                    lineNumber: 60,
+                                    lineNumber: 59,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer.js",
-                            lineNumber: 32,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this)
                     ]
@@ -908,7 +908,7 @@ const Footer = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "py-4",
+                className: "py-5",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4 flex flex-wrap justify-between items-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -916,17 +916,17 @@ const Footer = ()=>{
                         children: "© 2025 Ecommerce Web . All rights reserved By Munawar Khan."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Footer.js",
-                        lineNumber: 75,
+                        lineNumber: 74,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Footer.js",
-                    lineNumber: 74,
+                    lineNumber: 73,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Footer.js",
-                lineNumber: 73,
+                lineNumber: 72,
                 columnNumber: 7
             }, this)
         ]
@@ -1151,9 +1151,9 @@ const DealsSection = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "container  bg-white text-black mx-auto  ",
+        className: "mt-10 container bg-white text-black p-5 ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "grid  grid-cols-1 mt-10 md:grid-cols-3 lg:grid-cols-6 gap-6",
+            className: "grid  grid-cols-1  md:grid-cols-3 lg:grid-cols-6 gap-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col items-center justify-center  mb-4 p-4",
@@ -1290,7 +1290,7 @@ const DealsSection = ()=>{
                     columnNumber: 7
                 }, this),
                 deals.map((deal, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col items-center text-center border p-2   ",
+                        className: "flex flex-col items-center text-center border border-black p-2   ",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: deal.image,
@@ -1351,6 +1351,130 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
+// "use client";
+// import { useState } from "react";
+// const HomePage = () => {
+//   const [form, setForm] = useState({
+//     item: "",
+//     details: "",
+//     quantity: "",
+//     unit: "Pcs",
+//   });
+//   const handleChange = (e) => {
+//     setForm({ ...form, [e.target.name]: e.target.value });
+//   };
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     console.log("Form submitted:", form);
+//   };
+//   return (
+//     <div
+//       className="relative bg-cover bg-center bg-no-repeat p-8 h-screen mt-10 mb-10 lg:py-20"
+//       style={{
+//         backgroundImage: "url('/Homebg.png')",
+//         backgroundSize: "cover",
+//         backgroundPosition: "center",
+//       }}
+//     >
+//       <div className="absolute inset-0 bg-blue-900  bg-opacity-75"></div>
+//       <div className="relative container mx-auto ">
+//         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-5 ">
+//           <div>
+//             <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4">
+//               An easy way to send requests to all suppliers
+//             </h2>
+//             <p className="text-white text-base font-medium">
+//               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+//               eiusmod tempor incididunt.
+//             </p>
+//           </div>
+//           <div className=" bg-white p-5 lg:p-10 rounded-lg shadow">
+//             <form onSubmit={handleSubmit} className="space-y-4">
+//               <div>
+//                 <label
+//                   htmlFor="item"
+//                   className="block text-base font-medium text-gray-700 mb-1"
+//                 >
+//                   What item you need?
+//                 </label>
+//                 <input
+//                   type="text"
+//                   id="item"
+//                   name="item"
+//                   value={form.item}
+//                   onChange={handleChange}
+//                   className="w-full border border-gray-300 rounded-lg p-3  focus:ring-blue-500 focus:border-blue-500"
+//                   placeholder="Enter item name"
+//                 />
+//               </div>
+//               <div>
+//                 <label
+//                   htmlFor="details"
+//                   className="block text-base font-medium text-gray-700 mb-1"
+//                 >
+//                   Type more details
+//                 </label>
+//                 <textarea
+//                   id="details"
+//                   name="details"
+//                   value={form.details}
+//                   onChange={handleChange}
+//                   className="w-full border border-gray-300 rounded-lg p-3  focus:ring-blue-500 focus:border-blue-500 h-32 resize-none "
+//                   placeholder="Enter details"
+//                 ></textarea>
+//               </div>
+//               <div className="flex gap-4">
+//                 <div className="w-2/3">
+//                   <label
+//                     htmlFor="quantity"
+//                     className="block text-base font-medium text-gray-700 mb-1"
+//                   >
+//                     Quantity
+//                   </label>
+//                   <input
+//                     type="number"
+//                     id="quantity"
+//                     name="quantity"
+//                     value={form.quantity}
+//                     onChange={handleChange}
+//                     className="w-full border border-gray-300 rounded-lg p-2 focus:ring-blue-500 focus:border-blue-500"
+//                     placeholder="Enter quantity"
+//                   />
+//                 </div>
+//                 <div className="w-1/3">
+//                   <label
+//                     htmlFor="unit"
+//                     className="block text-base font-medium text-gray-700 mb-1"
+//                   >
+//                     Unit
+//                   </label>
+//                   <select
+//                     id="unit"
+//                     name="unit"
+//                     value={form.unit}
+//                     onChange={handleChange}
+//                     className="w-full border border-gray-300 rounded-lg  p-2 focus:ring-blue-500 focus:border-blue-500"
+//                   >
+//                     <option value="Pcs">Pcs</option>
+//                     <option value="Kg">Kg</option>
+//                     <option value="Liters">Liters</option>
+//                   </select>
+//                 </div>
+//               </div>
+//               <button
+//                 type="submit"
+//                 className="w-full bg-blue-600 text-white font-medium p-2 rounded-lg hover:bg-blue-700 transition"
+//               >
+//                 Send Inquiry
+//               </button>
+//             </form>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+// export default HomePage;
 __turbopack_esm__({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -1369,17 +1493,18 @@ const HomePage = ()=>{
         unit: "Pcs"
     });
     const handleChange = (e)=>{
-        setForm({
-            ...form,
-            [e.target.name]: e.target.value
-        });
+        const { name, value } = e.target;
+        setForm((prevForm)=>({
+                ...prevForm,
+                [name]: value
+            }));
     };
     const handleSubmit = (e)=>{
         e.preventDefault();
         console.log("Form submitted:", form);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "relative bg-cover bg-center bg-no-repeat p-8 h-screen mt-10 mb-10 lg:py-20",
+        className: " mt-10 relative bg-cover bg-center bg-no-repeat p-6 lg:p-10 h-auto",
         style: {
             backgroundImage: "url('/Homebg.png')",
             backgroundSize: "cover",
@@ -1387,16 +1512,16 @@ const HomePage = ()=>{
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 bg-blue-900  bg-opacity-75"
+                className: "absolute inset-0 bg-blue-900 bg-opacity-75"
             }, void 0, false, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 31,
+                lineNumber: 163,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative container mx-auto ",
+                className: "relative container mx-auto",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 lg:grid-cols-2 items-center gap-5 ",
+                    className: "grid grid-cols-1 lg:grid-cols-2 items-center gap-8",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
@@ -1405,7 +1530,7 @@ const HomePage = ()=>{
                                     children: "An easy way to send requests to all suppliers"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 36,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1413,30 +1538,30 @@ const HomePage = ()=>{
                                     children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
-                                    lineNumber: 39,
+                                    lineNumber: 172,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 35,
+                            lineNumber: 168,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: " bg-white p-5 lg:p-10 rounded-lg shadow",
+                            className: "bg-white p-6 lg:p-8 rounded-lg shadow-lg",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                 onSubmit: handleSubmit,
-                                className: "space-y-4",
+                                className: "space-y-5",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 htmlFor: "item",
-                                                className: "block text-base font-medium text-gray-700 mb-1",
-                                                children: "What item you need?"
+                                                className: "block text-base font-medium text-gray-700 mb-2",
+                                                children: "What item do you need?"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 47,
+                                                lineNumber: 182,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1445,28 +1570,28 @@ const HomePage = ()=>{
                                                 name: "item",
                                                 value: form.item,
                                                 onChange: handleChange,
-                                                className: "w-full border border-gray-300 rounded-lg p-3  focus:ring-blue-500 focus:border-blue-500",
+                                                className: "w-full border border-gray-300 rounded-lg p-3 focus:ring-blue-500 focus:border-blue-500",
                                                 placeholder: "Enter item name"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 53,
+                                                lineNumber: 188,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 46,
+                                        lineNumber: 181,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 htmlFor: "details",
-                                                className: "block text-base font-medium text-gray-700 mb-1",
+                                                className: "block text-base font-medium text-gray-700 mb-2",
                                                 children: "Type more details"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 64,
+                                                lineNumber: 199,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -1474,32 +1599,32 @@ const HomePage = ()=>{
                                                 name: "details",
                                                 value: form.details,
                                                 onChange: handleChange,
-                                                className: "w-full border border-gray-300 rounded-lg p-3  focus:ring-blue-500 focus:border-blue-500 h-32 resize-none ",
+                                                className: "w-full border border-gray-300 rounded-lg p-3 focus:ring-blue-500 focus:border-blue-500 h-28 resize-none",
                                                 placeholder: "Enter details"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 70,
+                                                lineNumber: 205,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 63,
+                                        lineNumber: 198,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex gap-4",
+                                        className: "flex flex-wrap gap-4",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-2/3",
+                                                className: "flex-1 min-w-[50%]",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                         htmlFor: "quantity",
-                                                        className: "block text-base font-medium text-gray-700 mb-1",
+                                                        className: "block text-base font-medium text-gray-700 mb-2",
                                                         children: "Quantity"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 81,
+                                                        lineNumber: 216,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1508,29 +1633,29 @@ const HomePage = ()=>{
                                                         name: "quantity",
                                                         value: form.quantity,
                                                         onChange: handleChange,
-                                                        className: "w-full border border-gray-300 rounded-lg p-2 focus:ring-blue-500 focus:border-blue-500",
+                                                        className: "w-full border border-gray-300 rounded-lg p-3 focus:ring-blue-500 focus:border-blue-500",
                                                         placeholder: "Enter quantity"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 87,
+                                                        lineNumber: 222,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 80,
+                                                lineNumber: 215,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-1/3",
+                                                className: "flex-1 min-w-[30%]",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                         htmlFor: "unit",
-                                                        className: "block text-base font-medium text-gray-700 mb-1",
+                                                        className: "block text-base font-medium text-gray-700 mb-2",
                                                         children: "Unit"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 98,
+                                                        lineNumber: 233,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1538,14 +1663,14 @@ const HomePage = ()=>{
                                                         name: "unit",
                                                         value: form.unit,
                                                         onChange: handleChange,
-                                                        className: "w-full border border-gray-300 rounded-lg  p-2 focus:ring-blue-500 focus:border-blue-500",
+                                                        className: "w-full border border-gray-300 rounded-lg p-3 focus:ring-blue-500 focus:border-blue-500",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 value: "Pcs",
                                                                 children: "Pcs"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomePage.js",
-                                                                lineNumber: 111,
+                                                                lineNumber: 246,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1553,7 +1678,7 @@ const HomePage = ()=>{
                                                                 children: "Kg"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomePage.js",
-                                                                lineNumber: 112,
+                                                                lineNumber: 247,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1561,62 +1686,62 @@ const HomePage = ()=>{
                                                                 children: "Liters"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomePage.js",
-                                                                lineNumber: 113,
+                                                                lineNumber: 248,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/HomePage.js",
-                                                        lineNumber: 104,
+                                                        lineNumber: 239,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/HomePage.js",
-                                                lineNumber: 97,
+                                                lineNumber: 232,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 79,
+                                        lineNumber: 214,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         type: "submit",
-                                        className: "w-full bg-blue-600 text-white font-medium p-2 rounded-lg hover:bg-blue-700 transition",
+                                        className: "w-full bg-blue-600 text-white font-medium p-3 rounded-lg hover:bg-blue-700 transition",
                                         children: "Send Inquiry"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomePage.js",
-                                        lineNumber: 117,
+                                        lineNumber: 252,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/HomePage.js",
-                                lineNumber: 45,
+                                lineNumber: 180,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/HomePage.js",
-                            lineNumber: 44,
+                            lineNumber: 179,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/HomePage.js",
-                    lineNumber: 34,
+                    lineNumber: 166,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/HomePage.js",
-                lineNumber: 33,
+                lineNumber: 165,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/HomePage.js",
-        lineNumber: 23,
+        lineNumber: 155,
         columnNumber: 5
     }, this);
 };

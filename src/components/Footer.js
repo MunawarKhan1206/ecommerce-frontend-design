@@ -2,8 +2,8 @@
 import React from "react";
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 p-10">
-      <div className="container mx-auto px-4 text-center">
+    <footer className="bg-gray-100 p-8">
+      <div className="container px-4 text-center">
         <h3 className="text-lg font-semibold">Subscribe on our newsletter</h3>
         <p className="text-gray-600 text-sm">
           Get daily news on upcoming offers from many suppliers all over the world
@@ -19,17 +19,16 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="mt-12  border  bg-white">
+      <div className="mt-5 border bg-white">
         <div className="container  mx-auto px-3 flex flex-wrap justify-between items-start py-8">
           
-          <div className="w-full sm:w-1/3 mb-5 sm:mb-0">
+          <div className="w-full sm:w-1/3 mb-4 sm:mb-0">
             <h4 className="text-blue-600 font-bold text-lg">Brand</h4>
             <p className="text-gray-600 text-sm ">
               Best information about the company goes here but now lorem ipsum.
             </p>
-
           </div>
-          <div className="w-full sm:w-2/3 grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div className="w-full sm:w-2/3 grid grid-cols-2 sm:grid-cols-4 gap-5">
             <div>
               <h5 className="font-semibold text-gray-800">About</h5>
               <ul className="mt-2 text-sm text-gray-700 space-y-2">
@@ -70,7 +69,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="py-4">
+      <div className="py-5">
         <div className="container mx-auto px-4 flex flex-wrap justify-between items-center">
           <p className="text-base font-semibold  text-gray-700">© 2025 Ecommerce Web . All rights reserved By Munawar Khan.</p>
         </div>
