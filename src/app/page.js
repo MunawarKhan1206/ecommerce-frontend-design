@@ -7,7 +7,7 @@ import Electronicandgadget from '@/components/electronic&gadet';
 import HomePage from '@/components/HomePage';
 import Productpage from '@/components/product';
 import Lastsection from '@/components/lastsection';
-
+import Newsletter from '@/components/newsletter';
 export default function RootLayout({ children }) {
   return (
   <>
@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
         <HomePage />
         <Productpage />
         <Lastsection />
+        <Newsletter />
         <Footer />
       </body>
     </>

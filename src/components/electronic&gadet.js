@@ -14,9 +14,8 @@ const Electronicandgadget = () => {
   ];
 
   return (
-    <div className="container p-2 text-black bg-white mx-auto mt-10">
-      <div className="grid lg:grid-cols-3 rounded-lg">
-        {/* Left Section */}
+    <div className="container p-2 text-black bg-white mx-auto mt-9">
+      <div className="grid lg:grid-cols-3 ">
         <div
           className="p-5 flex flex-col justify-center items-start rounded-lg"
           style={{
@@ -35,7 +34,7 @@ const Electronicandgadget = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className="bg-white flex flex-col items-center text-center border border-gray-200 rounded-lg"
+              className="bg-white flex flex-col items-center text-center border border-gray-200 text-black rounded-lg"
             >
               <Image
                 src={item.image}
@@ -45,7 +44,7 @@ const Electronicandgadget = () => {
                 className="rounded-md object-cover mb-4"
               />
               <h3 className="font-medium text-lg">{item.title}</h3>
-              <p className="text-sm text-gray-700">{item.price}</p>
+              <p className="text-sm">{item.price}</p>
             </div>
           ))}
         </div>

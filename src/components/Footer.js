@@ -1,30 +1,15 @@
 "use client"
+import Image from "next/image";
 import React from "react";
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 p-8">
-      <div className="container px-4 text-center">
-        <h3 className="text-lg font-semibold">Subscribe on our newsletter</h3>
-        <p className="text-gray-600 text-sm">
-          Get daily news on upcoming offers from many suppliers all over the world
-        </p>
-        <div className="mt-4 flex justify-center items-center gap-2">
-          <input
-            type="email"
-            placeholder="Email"
-            className="w-full max-w-sm px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-          <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
-            Subscribe
-          </button>
-        </div>
-      </div>
-      <div className="mt-5 border bg-white">
+    <footer className="bg-gray-100 p-6">
+      <div className="mt-2 border bg-white">
         <div className="container  mx-auto px-3 flex flex-wrap justify-between items-start py-8">
-          
+        
           <div className="w-full sm:w-1/3 mb-4 sm:mb-0">
-            <h4 className="text-blue-600 font-bold text-lg">Brand</h4>
-            <p className="text-gray-600 text-sm ">
+            <h4 className="text-blue-700 font-bold text-lg">Brand</h4>
+            <p className="text-black text-sm ">
               Best information about the company goes here but now lorem ipsum.
             </p>
           </div>

@@ -34,7 +34,7 @@ const HomeOutdoorSection = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className="bg-white flex flex-col items-center text-center border border-gray-200 rounded-lg"
+              className="bg-white flex flex-col items-center text-center border border-gray-200 text-black rounded-lg"
             >
               <Image
                 src={item.image}
@@ -44,7 +44,7 @@ const HomeOutdoorSection = () => {
                 className="rounded-md object-cover mb-4"
               />
               <h3 className="font-medium text-lg">{item.title}</h3>
-              <p className="text-sm text-gray-700">{item.price}</p>
+              <p className="text-sm">{item.price}</p>
             </div>
           ))}
         </div>
