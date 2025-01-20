@@ -70,7 +70,7 @@ const ProductGrid = () => {
   }, [filters, applyFilters]);
 
   if (loading) {
-    return <p className="text-center font-extrabold text-xl">Loading products... This may take a few seconds</p>;
+    return <p className="text-center font-extrabold text-xl">Products are being retrieved from the API. Please wait a few seconds.</p>;
   }
 
   return (
@@ -78,8 +78,6 @@ const ProductGrid = () => {
       <div className="flex flex-col md:flex-row gap-6">
         <div className="w-full h-1/4 md:w-1/4 bg-gray-50 p-6 rounded-lg shadow-xl">
           <h2 className="text-lg font-bold mb-6 text-gray-800">Filters</h2>
-
-          {/* Category Filter */}
           <div className="mb-6">
             <h3 className="text-sm font-semibold mb-2">Category</h3>
             <select
@@ -96,8 +94,6 @@ const ProductGrid = () => {
               ))}
             </select>
           </div>
-
-          {/* Price Filter */}
           <div className="mb-6">
             <h3 className="text-sm font-semibold mb-2">Price Range</h3>
             <div className="flex gap-4">
@@ -119,8 +115,6 @@ const ProductGrid = () => {
               />
             </div>
           </div>
-
-          {/* Rating Filter */}
           <div className="mb-6">
             <h3 className="text-sm font-semibold mb-2">Rating</h3>
             <input
@@ -135,8 +129,6 @@ const ProductGrid = () => {
             />
             <p className="text-sm text-gray-600 mt-2">Rating: {filters.rating}+</p>
           </div>
-
-          {/* Clear Filters Button */}
           <button
             onClick={() => setFilters({ category: "", price: [0, 1000], rating: 0 })}
             className="w-full py-2 text-center text-blue-600 font-semibold border border-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition duration-200"
@@ -145,19 +137,17 @@ const ProductGrid = () => {
           </button>
         </div>
 
-        {/* Product Grid */}
         <div className="w-full md:w-3/4">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-xl font-semibold text-gray-800">
               {filteredProducts.length} items found
             </h2>
           </div>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
             {filteredProducts.map((product) => (
               <div
                 key={product.id}
-                className="group relative border rounded-lg p-6 hover:shadow-lg transition duration-300"
+                className="group relative border rounded-lg  p-4 w-72  bg-white hover:shadow-lg transition duration-300"
               >
                 <div className="relative w-full h-64 mb-4 overflow-hidden rounded-lg">
                   <Image
@@ -171,7 +161,8 @@ const ProductGrid = () => {
                 <p className="text-base font-medium text-yellow-500">{product.rating.rate} ★</p>
                 <p className="text-lg font-semibold text-gray-900">${product.price}</p>
                 <h3 className="text-lg font-medium text-gray-800">{product.title}</h3>
-                <p className="text-sm text-gray-600 mt-2">{product.description}</p>
+                <p className="text-sm text-gray-600 mt-2 text-ellipsis line-clamp-6 hover:line-clamp-none ">{product.description}</p>
+
               </div>
             ))}
           </div>

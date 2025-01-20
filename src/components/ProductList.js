@@ -62,7 +62,7 @@ const ProductList = () => {
   }, [filters, applyFilters]);
 
   if (loading) {
-    return <p className="text-center font-extrabold text-xl">Loading products... This may take a few seconds</p>;
+    return <p className="text-center font-extrabold text-xl">Products are being retrieved from the API. Please wait a few seconds.</p>;
   }
 
   return (
@@ -139,7 +139,7 @@ const ProductList = () => {
             {filteredProducts.map((product) => (
               <div
                 key={product.id}
-                className="border rounded-lg p-6 shadow-lg hover:shadow-2xl transition duration-300"
+                className="border rounded-lg p-6 shadow-lg bg-white hover:shadow-2xl transition duration-300"
               >
                 <div className="flex gap-6">
                   <div className="relative w-48 h-48 overflow-hidden rounded-lg">
@@ -155,7 +155,7 @@ const ProductList = () => {
                     <p className="text-base font-medium text-yellow-500">{product.rating.rate} ★</p>
                     <p className="text-lg font-semibold text-gray-900">${product.price}</p>
                     <h3 className="text-lg font-medium text-gray-800">{product.title}</h3>
-                    <p className="text-sm text-gray-600 mt-2">{product.description}</p>
+                    <p className="text-base text-balance text-gray-600 mt-2">{product.description}</p>
                     <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-200">
                       Add to Cart
                     </button>
