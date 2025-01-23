@@ -65,7 +65,7 @@ const Lastsection = () => {
         {regions.map((region, index) => (
           <div
             key={index}
-            className="flex items-center gap-4 p-2 mt-5"
+            className="flex  text-black  items-center gap-4 p-2 mt-5"
           >
             <Image
               src={region.image}

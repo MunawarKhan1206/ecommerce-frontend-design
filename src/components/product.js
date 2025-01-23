@@ -15,7 +15,7 @@ const products = [
 const ProductPage = () => {
   return (
     <div className="p-2">
-      <h2 className="text-2xl font-bold text-gray-800 mb-4">Recommended Items</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mt-2 mb-4">Recommended Items</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
         {products.map((product) => (
           <div

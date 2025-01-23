@@ -31,19 +31,13 @@ const ProductGrid = () => {
 
   const applyFilters = useCallback(() => {
     let filtered = products;
-
-    // Filter by category
     if (filters.category) {
       filtered = filtered.filter((product) => product.category === filters.category);
     }
-
-    // Filter by price range
     filtered = filtered.filter(
       (product) => product.price >= filters.price[0] && product.price <= filters.price[1]
     );
-
-    // Filter by rating
-    if (filters.rating > 0) {
+if (filters.rating > 0) {
       filtered = filtered.filter((product) => product.rating.rate >= filters.rating);
     }
 
@@ -76,8 +70,8 @@ const ProductGrid = () => {
   return (
     <div className="p-6">
       <div className="flex flex-col md:flex-row gap-6">
-        <div className="w-full h-1/4 md:w-1/4 bg-gray-50 p-6 rounded-lg shadow-xl">
-          <h2 className="text-lg font-bold mb-6 text-gray-800">Filters</h2>
+        <div className="w-full h-1/4 md:w-1/4 bg-gray-50 text-black p-6 rounded-lg shadow-xl">
+          <h2 className="text-lg font-bold text-black mb-6">Filters</h2>
           <div className="mb-6">
             <h3 className="text-sm font-semibold mb-2">Category</h3>
             <select

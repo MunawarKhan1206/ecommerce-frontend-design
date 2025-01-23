@@ -59,17 +59,14 @@ const ProductGrid = ()=>{
     const applyFilters = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
         "ProductGrid.useCallback[applyFilters]": ()=>{
             let filtered = products;
-            // Filter by category
             if (filters.category) {
                 filtered = filtered.filter({
                     "ProductGrid.useCallback[applyFilters]": (product)=>product.category === filters.category
                 }["ProductGrid.useCallback[applyFilters]"]);
             }
-            // Filter by price range
             filtered = filtered.filter({
                 "ProductGrid.useCallback[applyFilters]": (product)=>product.price >= filters.price[0] && product.price <= filters.price[1]
             }["ProductGrid.useCallback[applyFilters]"]);
-            // Filter by rating
             if (filters.rating > 0) {
                 filtered = filtered.filter({
                     "ProductGrid.useCallback[applyFilters]": (product)=>product.rating.rate >= filters.rating
@@ -120,7 +117,7 @@ const ProductGrid = ()=>{
             children: "Products are being retrieved from the API. Please wait a few seconds."
         }, void 0, false, {
             fileName: "[project]/src/components/ProductGrid.js",
-            lineNumber: 73,
+            lineNumber: 67,
             columnNumber: 12
         }, this);
     }
@@ -130,14 +127,14 @@ const ProductGrid = ()=>{
             className: "flex flex-col md:flex-row gap-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full h-1/4 md:w-1/4 bg-gray-50 p-6 rounded-lg shadow-xl",
+                    className: "w-full h-1/4 md:w-1/4 bg-gray-50 text-black p-6 rounded-lg shadow-xl",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-lg font-bold mb-6 text-gray-800",
+                            className: "text-lg font-bold text-black mb-6",
                             children: "Filters"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProductGrid.js",
-                            lineNumber: 80,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -148,7 +145,7 @@ const ProductGrid = ()=>{
                                     children: "Category"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProductGrid.js",
-                                    lineNumber: 82,
+                                    lineNumber: 76,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -162,7 +159,7 @@ const ProductGrid = ()=>{
                                             children: "All Categories"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProductGrid.js",
-                                            lineNumber: 89,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, this),
                                         categories.map((category, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -170,19 +167,19 @@ const ProductGrid = ()=>{
                                                 children: category
                                             }, index, false, {
                                                 fileName: "[project]/src/components/ProductGrid.js",
-                                                lineNumber: 91,
+                                                lineNumber: 85,
                                                 columnNumber: 17
                                             }, this))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ProductGrid.js",
-                                    lineNumber: 83,
+                                    lineNumber: 77,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ProductGrid.js",
-                            lineNumber: 81,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -193,7 +190,7 @@ const ProductGrid = ()=>{
                                     children: "Price Range"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProductGrid.js",
-                                    lineNumber: 98,
+                                    lineNumber: 92,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -208,7 +205,7 @@ const ProductGrid = ()=>{
                                             className: "w-1/2 p-3 border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProductGrid.js",
-                                            lineNumber: 100,
+                                            lineNumber: 94,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -220,19 +217,19 @@ const ProductGrid = ()=>{
                                             className: "w-1/2 p-3 border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProductGrid.js",
-                                            lineNumber: 108,
+                                            lineNumber: 102,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ProductGrid.js",
-                                    lineNumber: 99,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ProductGrid.js",
-                            lineNumber: 97,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -243,7 +240,7 @@ const ProductGrid = ()=>{
                                     children: "Rating"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProductGrid.js",
-                                    lineNumber: 119,
+                                    lineNumber: 113,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -257,7 +254,7 @@ const ProductGrid = ()=>{
                                     className: "w-full p-2 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProductGrid.js",
-                                    lineNumber: 120,
+                                    lineNumber: 114,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -269,13 +266,13 @@ const ProductGrid = ()=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ProductGrid.js",
-                                    lineNumber: 130,
+                                    lineNumber: 124,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ProductGrid.js",
-                            lineNumber: 118,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -291,13 +288,13 @@ const ProductGrid = ()=>{
                             children: "Clear All Filters"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProductGrid.js",
-                            lineNumber: 132,
+                            lineNumber: 126,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ProductGrid.js",
-                    lineNumber: 79,
+                    lineNumber: 73,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -313,12 +310,12 @@ const ProductGrid = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/ProductGrid.js",
-                                lineNumber: 142,
+                                lineNumber: 136,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProductGrid.js",
-                            lineNumber: 141,
+                            lineNumber: 135,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -336,12 +333,12 @@ const ProductGrid = ()=>{
                                                 className: "group-hover:scale-105 transition-transform duration-300"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ProductGrid.js",
-                                                lineNumber: 153,
+                                                lineNumber: 147,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProductGrid.js",
-                                            lineNumber: 152,
+                                            lineNumber: 146,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -352,7 +349,7 @@ const ProductGrid = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/ProductGrid.js",
-                                            lineNumber: 161,
+                                            lineNumber: 155,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -363,7 +360,7 @@ const ProductGrid = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/ProductGrid.js",
-                                            lineNumber: 162,
+                                            lineNumber: 156,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -371,7 +368,7 @@ const ProductGrid = ()=>{
                                             children: product.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProductGrid.js",
-                                            lineNumber: 163,
+                                            lineNumber: 157,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -379,35 +376,35 @@ const ProductGrid = ()=>{
                                             children: product.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProductGrid.js",
-                                            lineNumber: 164,
+                                            lineNumber: 158,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, product.id, true, {
                                     fileName: "[project]/src/components/ProductGrid.js",
-                                    lineNumber: 148,
+                                    lineNumber: 142,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProductGrid.js",
-                            lineNumber: 146,
+                            lineNumber: 140,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ProductGrid.js",
-                    lineNumber: 140,
+                    lineNumber: 134,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProductGrid.js",
-            lineNumber: 78,
+            lineNumber: 72,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/ProductGrid.js",
-        lineNumber: 77,
+        lineNumber: 71,
         columnNumber: 5
     }, this);
 };
@@ -545,10 +542,10 @@ const ProductList = ()=>{
             className: "flex flex-col md:flex-row gap-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full h-1/4 md:w-1/4 bg-gray-50 p-6 rounded-lg shadow-xl",
+                    className: "w-full h-1/4 md:w-1/4 bg-gray-50 text-black p-6 rounded-lg shadow-xl",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-lg font-bold mb-6 text-gray-800",
+                            className: "text-lg font-bold mb-6",
                             children: "Filters"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProductList.js",
@@ -676,7 +673,7 @@ const ProductList = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-gray-600 mt-2",
+                                    className: "text-sm text-black mt-2",
                                     children: [
                                         "Rating: ",
                                         filters.rating,
@@ -721,7 +718,7 @@ const ProductList = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex justify-between items-center mb-6",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-xl font-semibold text-gray-800",
+                                className: "text-xl font-semibold text-black ",
                                 children: [
                                     filteredProducts.length,
                                     " items found"
@@ -1134,7 +1131,7 @@ const Header = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-wrap items-center justify-between px-4 py-2 text-sm",
+                className: "flex flex-wrap items-center justify-between text-black px-4 py-2 text-sm",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-wrap items-center space-x-4",

@@ -68,8 +68,8 @@ const ProductList = () => {
   return (
     <div className="p-5">
       <div className="flex flex-col md:flex-row gap-6">
-        <div className="w-full h-1/4 md:w-1/4 bg-gray-50 p-6 rounded-lg shadow-xl">
-          <h2 className="text-lg font-bold mb-6 text-gray-800">Filters</h2>
+        <div className="w-full h-1/4 md:w-1/4 bg-gray-50 text-black p-6 rounded-lg shadow-xl">
+          <h2 className="text-lg font-bold mb-6">Filters</h2>
           <div className="mb-6">
             <h3 className="text-sm font-semibold mb-2">Category</h3>
             <select
@@ -119,7 +119,7 @@ const ProductList = () => {
               onChange={handleFilterChange}
               className="w-full p-2 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
-            <p className="text-sm text-gray-600 mt-2">Rating: {filters.rating}+</p>
+            <p className="text-sm text-black mt-2">Rating: {filters.rating}+</p>
           </div>
           <button
             onClick={() => setFilters({ category: "", price: [0, 1000], rating: 0 })}
@@ -130,7 +130,7 @@ const ProductList = () => {
         </div>
         <div className="w-full md:w-3/4">
           <div className="flex justify-between items-center mb-6">
-            <h2 className="text-xl font-semibold text-gray-800">
+            <h2 className="text-xl font-semibold text-black ">
               {filteredProducts.length} items found
             </h2>
           </div>

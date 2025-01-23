@@ -74,7 +74,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap items-center justify-between px-4 py-2 text-sm">
+      <div className="flex flex-wrap items-center justify-between text-black px-4 py-2 text-sm">
         <div className="flex flex-wrap items-center space-x-4">
           <FaBars className="cursor-pointer" />
           <span className="hover:underline cursor-pointer">All Categories</span>

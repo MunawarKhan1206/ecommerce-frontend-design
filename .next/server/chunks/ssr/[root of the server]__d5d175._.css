@@ -496,20 +496,6 @@ img, video {
   margin-top: 2.25rem;
 }
 
-.line-clamp-5 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
-}
-
-.line-clamp-4 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-}
-
 .line-clamp-6 {
   overflow: hidden;
   display: -webkit-box;
@@ -593,20 +579,12 @@ img, video {
   width: 12rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-56 {
-  width: 14rem;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
 .w-72 {
   width: 18rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .min-w-\[30\%\] {
@@ -769,14 +747,6 @@ img, video {
   text-overflow: ellipsis;
 }
 
-.whitespace-nowrap {
-  white-space: nowrap;
-}
-
-.text-wrap {
-  text-wrap: wrap;
-}
-
 .text-balance {
   text-wrap: balance;
 }
@@ -858,6 +828,11 @@ img, video {
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gray-800 {
@@ -994,10 +969,6 @@ img, video {
 
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .font-sans {
@@ -1221,11 +1192,6 @@ body {
 .hover\:bg-blue-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:bg-gray-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:font-bold:hover {
